@@ -1,0 +1,149 @@
+=== Simulation (Elapsed: 9 sec) ===
+=== Build (Elapsed: 1:08 min) ===
+    ### Starting build procedure for: CC
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC_grt_rtw
+    ### Invoking Target Language Compiler on CC.rtw
+    ### Using System Target File: C:\Program Files\MATLAB\R2021b\rtw\c\grt\grt.tlc
+            ### Loading TLC function libraries
+    ### Initial pass through model to cache user defined code
+    ### Caching model source code
+    ### Writing header file CC_types.h
+    ### Writing header file CC.h
+    ### Writing header file rtwtypes.h
+    ### Writing header file builtin_typeid_types.h
+    ### Writing header file multiword_types.h
+    .
+    ### Writing source file CC.c
+    ### Writing header file CC_private.h
+    ### Writing header file rtmodel.h
+    ### Writing source file CC_data.c
+    ### Writing header file rt_nonfinite.h
+    ### Writing source file rt_nonfinite.c
+    .
+    ### Writing header file rtGetInf.h
+    ### Writing source file rtGetInf.c
+    ### Writing header file rtGetNaN.h
+    ### Writing source file rtGetNaN.c
+    ### TLC code generation complete.
+    ### Saving binary information cache.
+    ### Using toolchain: LCC-win64 v2.4.1 | gmake (64-bit Windows)
+    ### Creating 'C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC_grt_rtw\CC.mk' ...
+    ### Successful completion of code generation for: CC
+    ### Simulink cache artifacts for 'CC' were created in 'C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC.slxc'.
+    Build process completed successfully
+    Top model targets built:
+    
+    Model  Action          Rebuild Reason                                           
+    ================================================================================
+    CC     Code generated  Build artifacts are incompatible with current location.  
+    
+    1 of 1 models built (0 models already up to date)
+    Build duration: 0h 1m 3.717s
+=== Build (Elapsed: 36 sec) ===
+    ### Starting build procedure for: CC
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC_grt_rtw
+    ### Invoking Target Language Compiler on CC.rtw
+    ### Using System Target File: C:\Program Files\MATLAB\R2021b\rtw\c\grt\grt.tlc
+            ### Loading TLC function libraries
+    ### Initial pass through model to cache user defined code
+    ### Caching model source code
+    ### Writing header file CC_types.h
+    ### Writing header file CC.h
+    ### Writing header file rtwtypes.h
+    .
+    ### Writing header file multiword_types.h
+    ### Writing source file CC.c
+    ### Writing header file CC_private.h
+    ### Writing header file rtmodel.h
+    ### TLC code generation complete.
+    ### Saving binary information cache.
+    ### Using toolchain: LCC-win64 v2.4.1 | gmake (64-bit Windows)
+    ### Creating 'C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC_grt_rtw\CC.mk' ...
+    ### Building 'CC': "C:\PROGRA~1\MATLAB\R2021b\bin\win64\gmake"  -f CC.mk all
+     
+    C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC_grt_rtw>set MATLAB=C:\Program Files\MATLAB\R2021b  
+     
+    C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC_grt_rtw>cd .  
+     
+    C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC_grt_rtw>if "all" == "" ("C:\PROGRA~1\MATLAB\R2021b\bin\win64\gmake"  -f CC.mk all )  else ("C:\PROGRA~1\MATLAB\R2021b\bin\win64\gmake"  -f CC.mk all )
+    "C:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/bin/lcc64" -c -w -noregistrylookup -nodeclspec -IC:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/include64 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=0 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=1 -DMODEL=CC -DNUMST=2 -DNCSTATES=1 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/Users/MANMAT~1/OneDrive/DOCUME~1/MATLAB/7146_C~1/28NOV2~2/CRZCNTRL -IC:/Users/MANMAT~1/OneDrive/DOCUME~1/MATLAB/7146_C~1/28NOV2~2/CRZCNTRL/CC_grt_rtw -IC:/PROGRA~1/MATLAB/R2021b/extern/include -IC:/PROGRA~1/MATLAB/R2021b/simulink/include -IC:/PROGRA~1/MATLAB/R2021b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021b/rtw/c/src/ext_mode/common -Fo"CC.obj" "C:\Users\MANMAT~1\OneDrive\DOCUME~1\MATLAB\7146_C~1\28NOV2~2\CRZCNTRL\CC_grt_rtw\CC.c"
+    "C:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/bin/lcc64" -c -w -noregistrylookup -nodeclspec -IC:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/include64 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=0 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=1 -DMODEL=CC -DNUMST=2 -DNCSTATES=1 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/Users/MANMAT~1/OneDrive/DOCUME~1/MATLAB/7146_C~1/28NOV2~2/CRZCNTRL -IC:/Users/MANMAT~1/OneDrive/DOCUME~1/MATLAB/7146_C~1/28NOV2~2/CRZCNTRL/CC_grt_rtw -IC:/PROGRA~1/MATLAB/R2021b/extern/include -IC:/PROGRA~1/MATLAB/R2021b/simulink/include -IC:/PROGRA~1/MATLAB/R2021b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021b/rtw/c/src/ext_mode/common -Fo"rt_main.obj" "C:\PROGRA~1\MATLAB\R2021b\rtw\c\src\common\rt_main.c"
+    "### Creating standalone executable "../CC.exe" ..." 
+    "C:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/bin/lcclnk64" -s -LC:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/lib64  -o ../CC.exe @CC.rsp
+    "### Created: ../CC.exe"
+    "### Successfully generated all binary outputs." 
+     
+    C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC_grt_rtw>exit /B 0
+    ### Successful completion of build procedure for: CC
+    ### Simulink cache artifacts for 'CC' were created in 'C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC.slxc'.
+    Build process completed successfully
+    Top model targets built:
+    
+    Model  Action                       Rebuild Reason                   
+    =====================================================================
+    CC     Code generated and compiled  Global variable Ki has changed.  
+    
+    1 of 1 models built (0 models already up to date)
+    Build duration: 0h 0m 34.089s
+=== Build (Elapsed: 7 sec) ===
+    ### Starting build procedure for: CC
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC_grt_rtw
+    ### Generated code for 'CC' is up to date because no structural, parameter or code replacement library changes were found.
+    ### Saving binary information cache.
+    ### Skipping makefile generation and compilation because C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\CC.exe is up to date
+    ### Successful completion of build procedure for: CC
+    Build process completed successfully
+    0 of 1 models built (1 models already up to date)
+    Build duration: 0h 0m 6.984s
+=== Subsystem Build (Elapsed: 51 sec) ===
+    ### Starting build procedure for: Subsystem
+    ### Generating code and artifacts to 'Model specific' folder structure
+    ### Generating code into build folder: C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\Subsystem_grt_rtw
+    ### Invoking Target Language Compiler on Subsystem.rtw
+    ### Using System Target File: C:\Program Files\MATLAB\R2021b\rtw\c\grt\grt.tlc
+            ### Loading TLC function libraries
+    ......
+    ### Initial pass through model to cache user defined code
+    .
+    ### Caching model source code
+    .........................
+    ### Writing header file Subsystem_types.h
+    ### Writing header file Subsystem.h
+    ### Writing header file rtwtypes.h
+    ### Writing header file multiword_types.h
+    ### Writing source file Subsystem.c
+    ### Writing header file Subsystem_private.h
+    ### Writing header file rtmodel.h
+    .
+    ### TLC code generation complete.
+    ### Saving binary information cache.
+    ### Using toolchain: LCC-win64 v2.4.1 | gmake (64-bit Windows)
+    ### Creating 'C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\Subsystem_grt_rtw\Subsystem.mk' ...
+    ### Building 'Subsystem': "C:\PROGRA~1\MATLAB\R2021b\bin\win64\gmake"  -f Subsystem.mk all
+     
+    C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\Subsystem_grt_rtw>set MATLAB=C:\Program Files\MATLAB\R2021b  
+     
+    C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\Subsystem_grt_rtw>cd .  
+     
+    C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\Subsystem_grt_rtw>if "all" == "" ("C:\PROGRA~1\MATLAB\R2021b\bin\win64\gmake"  -f Subsystem.mk all )  else ("C:\PROGRA~1\MATLAB\R2021b\bin\win64\gmake"  -f Subsystem.mk all )  
+    "C:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/bin/lcc64" -c -w -noregistrylookup -nodeclspec -IC:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/include64 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=0 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=Subsystem -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/Users/MANMAT~1/OneDrive/DOCUME~1/MATLAB/7146_C~1/28NOV2~2/CRZCNTRL -IC:/Users/MANMAT~1/OneDrive/DOCUME~1/MATLAB/7146_C~1/28NOV2~2/CRZCNTRL/Subsystem_grt_rtw -IC:/PROGRA~1/MATLAB/R2021b/extern/include -IC:/PROGRA~1/MATLAB/R2021b/simulink/include -IC:/PROGRA~1/MATLAB/R2021b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021b/rtw/c/src/ext_mode/common -Fo"Subsystem.obj" "C:\Users\MANMAT~1\OneDrive\DOCUME~1\MATLAB\7146_C~1\28NOV2~2\CRZCNTRL\Subsystem_grt_rtw\Subsystem.c" 
+    "C:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/bin/lcc64" -c -w -noregistrylookup -nodeclspec -IC:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/include64 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DMAT_FILE=0 -DONESTEPFCN=1 -DTERMFCN=1 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0  -DTID01EQ=0 -DMODEL=Subsystem -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DRT -DUSE_RTMODEL -IC:/Users/MANMAT~1/OneDrive/DOCUME~1/MATLAB/7146_C~1/28NOV2~2/CRZCNTRL -IC:/Users/MANMAT~1/OneDrive/DOCUME~1/MATLAB/7146_C~1/28NOV2~2/CRZCNTRL/Subsystem_grt_rtw -IC:/PROGRA~1/MATLAB/R2021b/extern/include -IC:/PROGRA~1/MATLAB/R2021b/simulink/include -IC:/PROGRA~1/MATLAB/R2021b/rtw/c/src -IC:/PROGRA~1/MATLAB/R2021b/rtw/c/src/ext_mode/common -Fo"rt_main.obj" "C:\PROGRA~1\MATLAB\R2021b\rtw\c\src\common\rt_main.c" 
+    "### Creating standalone executable "../Subsystem.exe" ..." 
+    "C:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/bin/lcclnk64" -s -LC:/PROGRA~1/MATLAB/R2021b/sys/lcc64/lcc64/lib64  -o ../Subsystem.exe @Subsystem.rsp   
+    "### Created: ../Subsystem.exe" 
+    "### Successfully generated all binary outputs." 
+     
+    C:\Users\Manmath Kharade\OneDrive\Documents\MATLAB\7146_Coursework_Kharademanmath\28 Nov 2021 - Copy\CRZCNTRL\Subsystem_grt_rtw>exit /B 0
+    ### Successful completion of build procedure for: Subsystem
+    Build process completed successfully
+    Top model targets built:
+    
+    Model      Action                       Rebuild Reason                                    
+    ==========================================================================================
+    Subsystem  Code generated and compiled  Code generation information file does not exist.  
+    
+    1 of 1 models built (0 models already up to date)
+    Build duration: 0h 0m 20.298s
